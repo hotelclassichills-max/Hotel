@@ -3,20 +3,67 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact &amp; Location | Hotel Classic Hills, Bhagsunag Dharamshala</title>
+<title>Contact & Location | Hotel Classic Hills, Bhagsunag Dharamshala</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="site-header">...header markup...</header>
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">CH</span>
+      <span class="brand-name">Classic Hills<small>Dharamshala</small></span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="#amenities">Amenities</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="booking.html">Book Now</a>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:+919816024647" class="btn btn-outline btn-sm">Call Now</a>
+      <a href="booking.html" class="btn btn-primary btn-sm">Book Now</a>
+    </div>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
 
-<!-- Contact content (unchanged) -->
+<div class="mobile-nav" aria-hidden="true">
+  <button class="mobile-nav-close" aria-label="Close menu">&times;</button>
+  <a href="index.html">Home</a>
+  <a href="rooms.html">Rooms</a>
+  <a href="#amenities">Amenities</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  <a href="booking.html" class="btn btn-primary">Book Now</a>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Contact</span>
+      <h1>Get in Touch</h1>
+      <p>The fastest way is WhatsApp — we usually reply within minutes.</p>
+    </div>
+    <div class="contact-card">
+      <h3>Contact Details</h3>
+      <p><strong>Phone:</strong> <a href="tel:+919816024647">+91 98160 24647</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/919816024647">+91 98160 24647</a></p>
+      <p><strong>Email:</strong> <a href="mailto:hotelclassichills@gmail.com">hotelclassichills@gmail.com</a></p>
+      <p><strong>Reservations:</strong> <a href="mailto:reservations@hotelclassichills.in">reservations@hotelclassichills.in</a></p>
+      <p><strong>Address:</strong><br>Hotel Classic Hills<br>Bhagsu Nag, Dharamshala<br>Himachal Pradesh 176219, India</p>
+      <p><strong>Check-in:</strong> 2:00 PM | <strong>Check-out:</strong> 11:00 AM</p>
+    </div>
+  </div>
+</section>
 
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="index.html" class="brand" style="margin-bottom:14px;"><span class="brand-mark">CH</span><span class="brand-name" style="color:#fff;">Classic Hills</span></a>
-        <p>A boutique balcony-room hotel in Bhagsunag, Bhagsunag Dharamshala.</p>
+        <p>A boutique balcony-room hotel in Bhagsunag, Dharamshala, five minutes from Bhagsunag Temple and a short drive from McLeod Ganj.</p>
       </div>
       <div class="footer-col">
         <h4>Explore</h4>
@@ -30,7 +77,7 @@
         <h4>Policies & Information</h4>
         <a href="policies/booking-policy.html">Booking Policy</a>
         <a href="policies/cancellation-policy.html">Cancellation Policy</a>
-        <a href="policies/terms.html">Terms &amp; Conditions</a>
+        <a href="policies/terms.html">Terms & Conditions</a>
         <a href="policies/privacy.html">Privacy Policy</a>
         <a href="policies/refund-policy.html">Refund Policy</a>
         <a href="policies/hotel-rules.html">Hotel Rules</a>
@@ -50,6 +97,13 @@
     </div>
   </div>
 </footer>
+
+<div class="sticky-bar">
+  <a href="tel:+919816024647">Call</a>
+  <a href="https://wa.me/919816024647">WhatsApp</a>
+  <a href="booking.html">Book Now</a>
+</div>
+
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 <script src="js/main.js"></script>
 </body>
