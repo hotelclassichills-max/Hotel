@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Official website for Hotel Classic Hills, Bhagsunag, McLeod Ganj, Dharamshala.",
-  "homepage": "https://www.hotelclassichills.com/",
+  "homepage": "https://hotelclassichills-max.github.io/Hotel/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

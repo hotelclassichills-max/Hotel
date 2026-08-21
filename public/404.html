@@ -1,14 +1,28 @@
 <!doctype html>
+<!--
+  GitHub Pages serves static files only — it has no server-side rewrite to
+  hand an unmatched URL (e.g. /Hotel/rooms/deluxe-room) back to index.html so React Router can take over. Without this file, refreshing
+  any page other than the homepage, or sharing a direct link to an inner
+  page, returns GitHub's default 404 page instead of your site.
+
+  This file implements the well-established "spa-github-pages" redirect
+  trick: GitHub Pages serves this 404.html for any unmatched path, and this
+  script immediately redirects to index.html while encoding the original
+  path in the query string. A matching script in index.html then restores
+  the real URL via history.replaceState before React Router reads it, so
+  the app lands on the correct page with no visible flash or redirect loop.
+
+  Reference: https://github.com/rafgraph/spa-github-pages
+-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Hotel Classic Hills</title>
     <script>
       // Update pathSegmentsToKeep to the number of path segments that make
-      // up your GitHub Pages project base:
-      // - 1 for a project site served at /<repo-name>/
-      // - 0 for a user/org site or a custom domain served at the domain root.
-      var pathSegmentsToKeep = 0
+      // up your GitHub Pages project base (1 for a project site served at
+      // /<repo-name>/, 0 for a user/org site served at the domain root).
+      var pathSegmentsToKeep = 1
 
       var l = window.location
       l.replace(
