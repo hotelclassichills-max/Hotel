@@ -16,7 +16,7 @@ export const rooms = [
     intro:
       'A comfortable retreat with a private balcony that opens to the pine-covered hills of Bhagsunag — designed for travellers who want an easy, restful base in McLeod Ganj.',
     description:
-      'The Deluxe Room pairs warm wood furnishings with a comfortable bed and a private balcony framing the surrounding mountains. Thoughtful touches — hot water, a mini bar and a modern bathroom — make it an easy, unfussy base for exploring Bhagsunag and McLeod Ganj.',
+      'The Deluxe Room pairs warm wood furnishings with a comfortable bed and a private balcony framing the surrounding mountains. Thoughtful touches — hot water, a mini bar and a modern bathroo[...]
     occupancy: '2 Adults',
     bedType: '1 Queen / King Bed',
     size: 'Room size available on request',
@@ -44,9 +44,9 @@ export const rooms = [
     shortName: 'Super Deluxe Room',
     unitCount: 6,
     intro:
-      'A more spacious take on our signature balcony rooms, with the same comfortable bed, mountain views and modern comforts, elevated with extra room to relax.',
+      'Located on our upper floors, these rooms offer elevated vantage points with breathtaking views of the surrounding Bhagsunag hills and mountain scenery.',
     description:
-      'The Super Deluxe Room offers a little more room to breathe, with the same warm, wood-accented interiors, a private mountain-facing balcony and a modern bathroom. It suits guests who want extra comfort during a longer Himalayan stay.',
+      'The Super Deluxe Room is situated on the upper floors of Hotel Classic Hills, providing more expansive and elevated views of the surrounding mountains and landscape. Each room features warm, wood-accented interiors, a private mountain-facing balcony positioned for panoramic vistas, and a modern, well-appointed bathroom. The elevated location gives guests a commanding perspective over the Kangra valley and the pine-covered slopes of Bhagsunag — perfect for those seeking a room with superior views.',
     occupancy: '2 Adults',
     bedType: '1 King Bed',
     size: 'Room size available on request',
@@ -56,7 +56,7 @@ export const rooms = [
     faqs: [
       {
         q: 'What makes the Super Deluxe Room different from the Deluxe Room?',
-        a: 'The Super Deluxe Room offers additional space while keeping the same balcony, mountain view and comfort standard as our Deluxe Room.',
+        a: 'The Super Deluxe Room is located on our upper floors, offering elevated and more expansive mountain views compared to the standard Deluxe Room.',
       },
       {
         q: 'Can I request an early check-in?',
@@ -76,7 +76,7 @@ export const rooms = [
     intro:
       'Twin beds, a private balcony and the same comfortable, mountain-view setting — ideal for friends or family travelling together.',
     description:
-      'Designed for guests travelling together, the Twin Super Deluxe Room offers two comfortable single beds, a private balcony with mountain views, and the same modern, well-appointed bathroom found across Hotel Classic Hills.',
+      'Designed for guests travelling together, the Twin Super Deluxe Room offers two comfortable single beds, a private balcony with mountain views, and the same modern, well-appointed bathroom f[...]
     occupancy: '2 Adults (Twin Beds)',
     bedType: '2 Twin Beds',
     size: 'Room size available on request',
