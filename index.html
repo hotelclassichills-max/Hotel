@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1F3B2E" />
+    <title>Hotel Classic Hills | Mountain-View Hotel in Bhagsunag, McLeod Ganj</title>
+    <meta name="description" content="Hotel Classic Hills is a comfortable mountain-view hotel in Bhagsunag, McLeod Ganj, Dharamshala. Balcony rooms, in-house restaurant and warm hospitality — your base to explore Kangra." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!--
+      Pairs with public/404.html: restores the real URL (which 404.html
+      encoded into a query string) via history.replaceState BEFORE React
+      Router mounts and reads window.location, so deep links and page
+      refreshes on GitHub Pages land on the correct route instead of the
+      homepage. This is a no-op on any other host. See public/404.html for
+      the full explanation.
+    -->
+    <script>
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&')
+            })
+            .join('?')
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash)
+        }
+      })(window.location)
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
