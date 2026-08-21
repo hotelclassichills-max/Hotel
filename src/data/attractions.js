@@ -7,6 +7,7 @@ import exteriorEntrance from '../assets/images/exterior-entrance.jpg'
 import dining1 from '../assets/images/dining-1.jpg'
 import exteriorBalconyDusk from '../assets/images/exterior-balcony-dusk.jpg'
 import roomDeluxe2 from '../assets/images/room-deluxe-2.jpg'
+import roomTwin2 from '../assets/images/room-twin-2.jpg'
 
 // Distances, timings and prices are intentionally left out unless verified —
 // update these fields once confirmed details are available.
@@ -23,12 +24,12 @@ export const attractions = [
   },
   {
     name: 'McLeod Ganj',
-    image: exteriorHillside,
+    image: lobby,
     description: 'The lively mountain town known for its Tibetan culture, cafés, markets and monastery life.',
   },
   {
     name: 'Dalai Lama Temple (Tsuglagkhang Complex)',
-    image: lobby,
+    image: corridor,
     description: 'The spiritual heart of the Tibetan community in exile, and a place of quiet reflection for visitors.',
   },
   {
@@ -44,11 +45,11 @@ export const attractions = [
   {
     name: 'Triund',
     image: forestSunset,
-    description: 'A popular Himalayan trek offering some of the region\u2019s most rewarding ridge-line views.',
+    description: 'A popular Himalayan trek offering some of the region's most rewarding ridge-line views.',
   },
   {
     name: 'HPCA Stadium',
-    image: corridor,
+    image: exteriorHillside,
     description: 'The famous cricket stadium in Dharamshala, set against a dramatic mountain backdrop.',
   },
   {
@@ -58,7 +59,7 @@ export const attractions = [
   },
   {
     name: 'Kangra Tea Gardens',
-    image: roomDeluxe2,
-    description: 'Rolling tea estates that reflect the Kangra region\u2019s long-standing tea-growing tradition.',
+    image: roomTwin2,
+    description: 'Rolling tea estates that reflect the Kangra region's long-standing tea-growing tradition.',
   },
 ]
