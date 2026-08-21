@@ -4,18 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // IMPORTANT for GitHub Pages: a GitHub Pages *project* site (as opposed to
-  // a user/org site) is served from https://<user>.github.io/<repo-name>/,
-  // not from the domain root. Vite needs to know this so every built asset
-  // path (JS, CSS, images) is prefixed correctly — otherwise the browser
-  // requests /assets/... instead of /<repo-name>/assets/..., those 404, and
-  // the page renders blank because React never mounts.
-  //
-  // Set this to match your repository name exactly (case-sensitive), with
-  // leading and trailing slashes. If you deploy to a custom domain or to a
-  // user/org root site (https://<user>.github.io/) instead, change this
-  // back to '/'.
-  base: '/Hotel/',
+  // IMPORTANT for GitHub Pages / custom domains:
+  // When deploying to a custom domain or to a user/org root site (https://<user>.github.io/ or a custom domain),
+  // base should be '/' so built asset URLs are rooted at the domain root.
+  base: '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
