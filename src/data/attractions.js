@@ -48,9 +48,9 @@ export const attractions = [
     description: 'A popular Himalayan trek offering some of the region's most rewarding ridge-line views.',
   },
   {
-    name: 'HPCA Stadium',
-    image: exteriorHillside,
-    description: 'The famous cricket stadium in Dharamshala, set against a dramatic mountain backdrop.',
+  name: 'Triund',
+  image: forestSunset,
+  description: "A popular Himalayan trek offering some of the region's most rewarding ridge-line views.",
   },
   {
     name: 'Kangra Valley',
