@@ -8,21 +8,21 @@ import bathroom from '../assets/images/bathroom.jpg'
 // Centralized room inventory. Update counts, amenities, and placeholder
 // pricing here; every page that lists rooms reads from this single source.
 export const rooms = [
-  {
-    slug: 'deluxe-room',
-    name: 'Deluxe Room with Balcony & Mountain View',
-    shortName: 'Deluxe Room',
-    unitCount: 8,
-    intro:
-      'A comfortable retreat with a private balcony that opens to the pine-covered hills of Bhagsunag — designed for travellers who want an easy, restful base in McLeod Ganj.',
-    description:
-      'The Deluxe Room pairs warm wood furnishings with a comfortable bed and a private balcony framing the surrounding mountains. Thoughtful touches — hot water, a mini bar and a modern bathroo[...]
-    occupancy: '2 Adults',
-    bedType: '1 Queen / King Bed',
-    size: 'Room size available on request',
-    heroImage: roomDeluxe1,
-    gallery: [roomDeluxe1, roomDeluxe2, balconyView, bathroom],
-    amenities: ['Balcony', 'Mountain View', 'Comfortable Bed', 'Wi-Fi', 'TV', 'Hot Water', 'Mini Bar', 'Modern Bathroom'],
+ {
+  slug: 'deluxe-room',
+  name: 'Deluxe Room with Balcony & Mountain View',
+  shortName: 'Deluxe Room',
+  unitCount: 8,
+  intro:
+    'A comfortable retreat with a private balcony that opens to the pine-covered hills of Bhagsunag — designed for travellers who want an easy, restful base in McLeod Ganj.',
+  description:
+    'The Deluxe Room pairs warm wood furnishings with a comfortable bed and a private balcony framing the surrounding mountains. Thoughtful touches include hot water, a mini bar and a modern bathroom, creating a comfortable and relaxing stay in Bhagsunag.',
+  occupancy: '2 Adults',
+  bedType: '1 Queen / King Bed',
+  size: 'Room size available on request',
+  heroImage: roomDeluxe1,
+  gallery: [roomDeluxe1, roomDeluxe2, balconyView, bathroom],
+  amenities: ['Balcony', 'Mountain View', 'Comfortable Bed', 'Wi-Fi', 'TV', 'Hot Water', 'Mini Bar', 'Modern Bathroom'],
     faqs: [
       {
         q: 'Does the Deluxe Room have a mountain-facing balcony?',
