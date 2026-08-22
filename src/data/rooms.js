@@ -76,7 +76,6 @@ export const rooms = [
     intro:
       'Twin beds, a private balcony and the same comfortable, mountain-view setting — ideal for friends or family travelling together.',
     description:
-      description:
   'Designed for guests travelling together, the Twin Super Deluxe Room offers two comfortable twin beds, a private balcony and beautiful mountain views. The room combines warm wood interiors with a spacious layout and modern bathroom facilities, making it an ideal choice for families, friends and guests travelling together.',
     occupancy: '2 Adults (Twin Beds)',
     bedType: '2 Twin Beds',
