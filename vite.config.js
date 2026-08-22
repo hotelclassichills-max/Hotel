@@ -15,7 +15,7 @@ export default defineConfig({
   // leading and trailing slashes. If you deploy to a custom domain or to a
   // user/org root site (https://<user>.github.io/) instead, change this
   // back to '/'.
-  base: '/Hotel/',
+  base: '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
