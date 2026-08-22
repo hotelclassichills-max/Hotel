@@ -13,7 +13,6 @@ import exteriorHillside from '../assets/images/exterior-hillside.jpg'
 import exteriorBalconyDusk from '../assets/images/exterior-balcony-dusk.jpg'
 import exteriorNightAerial from '../assets/images/exterior-night-aerial.jpg'
 import lobby from '../assets/images/lobby.jpg'
-import heroExteriorSunset from '../assets/images/hotel-classic-hills-exterior-sunset.jpg'
 
 const whyChooseUs = [
   { icon: 'mountain', title: 'Mountain Views' },
@@ -55,12 +54,12 @@ export default function Home() {
       />
 
       <Hero
-        image={heroExteriorSunset}
+        image={exteriorHillside}
         eyebrow="Welcome to Hotel Classic Hills"
         title="A Comfortable Himalayan Stay in the Heart of McLeod Ganj"
         subtitle="Experience warm hospitality, comfortable rooms, beautiful mountain surroundings and convenient access to Bhagsunag and McLeod Ganj."
         overlay="from-charcoal/85 via-charcoal/25 to-charcoal/20"
-        fit="contain"
+        zoom
         full
       >
         <Link to="/contact" className="btn-gold">
